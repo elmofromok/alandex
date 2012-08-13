@@ -1,26 +1,15 @@
 <%= stylesheet_link_tag    "one", :media => "all" %>
-
-<div class="row">
-  <div class="span12">
-      <h1 class="header-text"> Some HTML / CSS basics </h1>
-  </div>
-</div>
-<div class="row">
-  <div class="span6 well">
-    <h2>The Goal</h2>
-    <p>Style the html below to look like the following screen shot.  </p>
-    <a href="/screenshot-one.png" target="new">
-      <img src="/screenshot-one.png" width="100px" border="1px" />
-      Screenshot One
-    </a> (opens in a new tab)
-  </div>
-</div>
-<hr>
+<%= stylesheet_link_tag  "style4", :media => "all" %>
+<%= stylesheet_link_tag "common", :media => "all" %>
+  
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />  
+  
+ <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
 
 <!-- Work with the HTML below this line -->
-<div class="span8">
+<div class="span12">
   <div id="navigation_menu">
-    <ul class="nav horizontal bg pull-left">
+    <ul class="nav horizontal pull-left">
       <li>
         <a href="#">Homepage</a>
       </li>    
@@ -34,7 +23,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="span8">
+      <div class="span7">
         <ul class="nav pull-right login-offset">
           <li>
             <a href="#">Login</a>
@@ -42,11 +31,12 @@
         </ul>  
       </div>
       <div class="conatiner container-offset">
-        <div class="span8">
+        <div class="span12">
           <div class="row">
             <div class="span4">
               <h2>Welcome to Our Website</h2>
               <div class="content">
+              <br>
               <p>
                 Lorem dynamicus aliquam Investigationes per diam. Velit typi insitam quis ullamcorper typi. Cum lorem mirum erat id velit. Dolore feugait id typi ea qui. Facit eodem dolore eorum commodo usus. Non legunt diam augue mirum te. Habent et qui veniam zzril litterarum. Nobis est wisi aliquam tincidunt te. 
               </p>
@@ -58,15 +48,22 @@
               </p>
               </div>
             </div>
-            <div class="span3 offset1">
-            <aside>
-              <h3>Some Things to Know</h3>
-              <p2>Nulla claritatem quinta at quam amet. Parum adipiscing eros legere delenit fiant. Quod ut vulputate iis adipiscing legunt. Lectorum doming qui enim sollemnes iriure. </p>
-              <p2>Nulla claritatem quinta at quam amet. Parum adipiscing eros legere delenit fiant. Quod ut vulputate iis adipiscing legunt. Lectorum doming qui enim sollemnes iriure. </p>
-              <p2>Nulla claritatem quinta at quam amet. Parum adipiscing eros legere delenit fiant. Quod ut vulputate iis adipiscing legunt. Lectorum doming qui enim sollemnes iriure. </p>
-            </aside>  
+            <div class="span5 offset1">
+              <section class="main">
+          			<ul class="ch-grid">
+          				<li>
+          					<div class="ch-item ch-img-1">				
+          						<div class="ch-info-wrap">
+        								<div class="ch-info">
+        									<div class="ch-info-front ch-img-1"></div>
+        									  <div class="ch-info-back">
+        										<h3>Karoke means "empty orchestra" in Japanese</h3>
+        									</div>	
+        								</div>
+        							</div>
+        						</div>
+                  </div>
+                </div>
+              </div> 
+            </div>
           </div>
-        </div>
-      </div> 
-    </div>
-  </div>
