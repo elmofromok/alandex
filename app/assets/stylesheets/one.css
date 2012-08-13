@@ -1,1 +1,50 @@
 /* place your css here */
+
+h2,h3 {
+  text-transform:uppercase;
+  padding-bottom:10px;
+}
+
+p {
+  font-size:16px;
+  line-height:25px;
+}
+
+p2 {
+  font-size:12px;
+}
+
+ul.horizontal {
+  margin:0;
+  padding:8px 0;
+}
+
+ul.horizontal li {
+  display:block;
+  float:left;
+  padding:0 10px;
+}
+
+.nav {
+  font-size:16px;
+  font-weight:bold;  
+}
+
+.bg {
+  background-color:#e9e9e9;
+  height:20px;
+  width:100%;
+}
+
+.login-offset {
+  padding-top:10px;
+}
+
+.container-offset {
+  padding-top:100px;
+}
+
+aside {
+  background-color:#f6e2d1;
+  padding:25px;
+}
