@@ -1,1 +1,40 @@
 /* place your css here */
+.hero-unit.right {
+	background-color:#ffe3d1;
+}
+.nav.right{
+	text-align:right;
+	font-weight:bold;
+	font-size:120%;
+	background-color:white;
+		padding-top:10px;
+}
+.nav {
+	font-weight:bold;
+	font-size:120%;
+}
+	
+ul.horizontal {
+	  margin:0;
+	  padding:8px 0;
+	}
+
+ul.horizontal li {
+	  display:block;
+	  float:left;
+	  padding:0 10px;
+	}
+}
+.navigation-menu {
+	word-spacing:12px;
+	background-color:#e6e6e6;
+	height:40px;
+	width:100%;
+}
+.hero-unit.left {
+	background-color:white;
+}
+.bg {
+		background-color:#e6e6e6;
+		height:20px;
+}
