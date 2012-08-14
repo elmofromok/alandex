@@ -33,6 +33,11 @@ ul.horizontal li {
 }
 .hero-unit.left {
 	background-color:white;
+	font:Helvetica;
+}
+.hero-unit.right{
+	font:Helvetica;
+	font-size:144px;
 }
 .bg {
 		background-color:#e6e6e6;
