@@ -29,22 +29,25 @@ padding:10px;
 	font:helvetica;
 	
 }
-.span5.offset1{
+aside{
 	background-color:#ffe3d1;
+	padding:20px;
 }
-.span5.offset1 h3 {
+aside h3 {
 	font-size:22px;
+	padding-bottom:15px;
 }
-.span5.offset1 p{
+aside p{
 	font-size:12px;
 }
-.span6 {
+.row {
 	background-color:transparent;
 }
-.span6 h2{
+.row h2{
 		font-size:22px;
+		padding-bottom:15px;
 }
-.span6 p{
+.row p{
 	font-size:15px;
 }
 
