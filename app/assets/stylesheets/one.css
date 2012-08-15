@@ -1,6 +1,6 @@
 /* place your css here */
 
-.nav.right{
+.nav{
 	float:right;
 	font:helvetica;
 	font-weight:bold;
@@ -25,20 +25,29 @@ font-weight:bold;
 list-style:none; 
 padding:10px;
 }
-.hero-unit{
+.content{
 	font:helvetica;
-	text-align:justify;
 	
 }
-.hero-unit.right {
+.span5.offset1{
 	background-color:#ffe3d1;
 }
-.hero-unit.right h3 {
+.span5.offset1 h3 {
 	font-size:22px;
 }
-.hero-unit.right p{
-	font-size:15px;
+.span5.offset1 p{
+	font-size:12px;
 }
-.hero-unit.left {
+.span6 {
 	background-color:transparent;
 }
+.span6 h2{
+		font-size:22px;
+}
+.span6 p{
+	font-size:15px;
+}
+
+
+
+
