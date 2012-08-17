@@ -1,0 +1,127 @@
+/*
+  Place all the styles related to exercise three here.
+*/
+
+h1, h3 {
+  color:#0752af;
+  text-transform:uppercase;
+}
+
+.page_header {
+  padding-bottom:20px;
+}
+
+.navigation_menu ul {
+  background-color:#0752af;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:19px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:5px;
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:19px;
+  border-top-left-radius:15px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:19px;
+  width:100%;
+  height:50px;
+  
+}
+
+.nav  li  {
+  display:inline; 
+  float:left; 
+  font-size:12px;
+  font-weight:bold;
+  list-style:none; 
+  padding-top:13px;
+  margin:0px 0px 0px 75px;
+}
+
+.nav a {
+  color:white;
+  padding:3px 45px 3px 45px;
+}
+
+.nav li.active a, .nav li a:hover {
+  background-color: #91c8ff;
+  color:#fff;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:0px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:19px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:19px;
+  border-top-left-radius:15px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:19px;
+  padding:3px 45px 3px 45px;
+}
+
+.login {
+  float:right;
+  font-size:16px;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+
+.image_left {
+  border:#000 1px solid;
+  float:left;
+  margin-right:20px;
+  -webkit-transform: rotate(-5deg) ;
+  -moz-transform: rotate(-1deg) ;
+  -o-transform: rotate(-5deg) ;
+}
+
+.attention_text {
+   line-height:22px;
+   font-size:22px;
+   font-weight:bold;
+ 
+}
+
+p{ 
+  font-size:14px;
+  padding-top:20px;
+  }
+
+.content p a{
+  color:#08a8d0;
+}
+
+aside {
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:0px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:19px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:19px;
+  border-top-left-radius:15px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:19px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3d5ff', endColorstr = '#fafffe');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3d5ff', endColorstr = '#fafffe')";
+  background-image: -moz-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: -ms-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: -o-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#a3d5ff), to(#fafffe));
+  background-image: -webkit-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: linear-gradient(top, #a3d5ff, #fafffe);
+  padding:15px;
+}
+
+
+aside img {
+  border:#000 1px solid;
+  float:right;
+  margin-left:1px;
+}
