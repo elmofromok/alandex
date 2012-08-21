@@ -1,1 +1,140 @@
 /*Add Styles Here*/
+#navigation_menu ul{
+	float:left;
+	font:helvetica;
+	font-weight:bold;
+	font-size:18px;
+	background-repeat:repeat-y;
+	width:100%;
+	height:60px;
+	background-color: #ffffff;
+	border: 2px solid transparent;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#2155ff', endColorstr = '#7a90ff');
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#2155ff', endColorstr = '#7a90ff')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	background-image: -moz-linear-gradient(top, #2155ff, #7a90ff);
+	background-image: -ms-linear-gradient(top, #2155ff, #7a90ff);
+	background-image: -o-linear-gradient(top, #2155ff, #7a90ff);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#2155ff), to(#7a90ff));
+	background-image: -webkit-linear-gradient(top, #2155ff, #7a90ff);
+	background-image: linear-gradient(top, #2155ff, #7a90ff);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+	/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+
+	
+}
+aside {
+	background-color: #ffffff;
+	border: 2px solid transparent;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f9f4ed', endColorstr = '#f2871d');
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f9f4ed', endColorstr = '#f2871d')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	background-image: -moz-linear-gradient(top, #f9f4ed, #f2871d);
+	background-image: -ms-linear-gradient(top, #f9f4ed, #f2871d);
+	background-image: -o-linear-gradient(top, #f9f4ed, #f2871d);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#f9f4ed), to(#f2871d));
+	background-image: -webkit-linear-gradient(top, #f9f4ed, #f2871d);
+	background-image: linear-gradient(top, #f9f4ed, #f2871d);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+	/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+	padding:20px;
+}
+aside h3{
+	padding-bottom:20px;
+}
+#navigation_menu ul li{
+	display:inline; 
+	height:20px; 
+	float:left; 
+	font-size:18px;
+	font-weight:bold;
+	list-style:none; 
+	padding:10px;
+	margin:3px 0px 0px 100px;
+
+}
+#login{
+	float:right;
+	padding:0,10px;
+	color:transparent;
+}
+.nav li a{
+	color:white;
+	background-color:transparent;	
+}
+.active {
+	position:relative;
+	margin:3px 0px 0px 100px;
+
+
+
+}
+a {
+  color:white;
+  padding:5px 25px 5px 25px;
+}
+
+
+.nav li.active a, .nav li a:hover {
+  background-color: #91c8ff;
+  color:#fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding:5px 25px 5px 25px;
+}
+.content {
+	height:200px;
+	width:600px;
+	overflow:scroll;
+	padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
