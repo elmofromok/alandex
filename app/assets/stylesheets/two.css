@@ -59,6 +59,7 @@ aside {
 	/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
 	/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
 	padding:20px;
+	width:250px;
 }
 aside h3{
 	padding-bottom:20px;
@@ -116,7 +117,7 @@ a {
 }
 
 .content {
-	height:200px;
+	height:350px;
 	width:600px;
 	overflow:scroll;
 	padding-right:10px;
@@ -127,7 +128,10 @@ a {
 	text-transform:uppercase;
 	padding-bottom:20px;
 }
-
+.row {
+	position:relative;
+	top:-50px;
+}
 
 
 
