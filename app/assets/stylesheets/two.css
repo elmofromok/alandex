@@ -95,9 +95,6 @@ aside h3{
 }
 .active {
 	position:relative;
-	margin:3px 0px 0px 100px;
-
-
 
 }
 a {
@@ -106,14 +103,18 @@ a {
 }
 
 
-.nav li.active a, .nav li a:hover {
-  background-color: #91c8ff;
-  color:#fff;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  padding:5px 25px 5px 25px;
+.nav li.active a,.nav li a:hover {
+  	background-color: #91c8ff;
+  	color:#fff;
+  	-moz-border-radius: 3px;
+  	-webkit-border-radius: 3px;
+  	border-radius: 3px;
+  	padding:-60px 25px 5px 25px;
+  	height:25px;
+	width:90px;
+
 }
+
 .content {
 	height:200px;
 	width:600px;
