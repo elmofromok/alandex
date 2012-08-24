@@ -1,3 +1,25 @@
 /*
   Place all the styles related to exercise three here.
 */
+#navigation_menu ul{
+  width:80%;
+  margin:auto;
+  overflow:auto;
+  text-align: center;
+}
+#exercise_three #login{
+	margin:-57px 0 20px;
+	float:right;
+}
+ ul.nav li {
+  float:left;
+  padding:10px;
+  font-size:16px;
+  font-weight:bold;
+  width:20%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin:10px;
+  color:#fff;
+}
