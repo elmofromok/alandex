@@ -1,0 +1,141 @@
+/*
+  Place all the styles related to exercise three here.
+*/
+
+h1, h3 {
+  color:#0752af;
+  text-transform:uppercase;
+}
+
+
+/*NAV/HEADER*/
+
+
+.nav-wrapper {
+  width:980px;
+  height:50px;
+  float:left;
+  padding-bottom:20px;
+}
+
+
+.navigation_menu ul {
+  background-color:#0752af;
+  -moz-border-radius: 15px 5px 19px 5px;
+  -webkit-border-radius:15px 5px 19px 5px;
+  border-radius:15px 5px 19px 5px;
+  width:980px;
+  height:50px;
+  
+}
+
+.nav  li  {
+  display:inline; 
+  float:left; 
+  font-size:12px;
+  font-weight:bold;
+  list-style:none; 
+  padding-top:13px;
+  margin:0px 0px 0px 75px;
+}
+
+.nav a {
+  color:white;
+  padding:3px 45px 3px 45px;
+}
+
+.nav li.active a, .nav li a:hover {
+  background-color: #91c8ff;
+  color:#fff;
+  -moz-border-radius-topleft: 15px 5px 19px 5px;
+  -webkit-border-radius:15px 5px 19px 5px;
+  border-top-left-radius:15px 5px 19px 5px
+  padding:3px 45px 3px 45px;
+}
+
+.login {
+  float:right;
+  font-size:16px;
+  font-weight:bold;
+  padding-bottom:10px;
+  position:relative;
+  margin-top:-67px;
+}
+
+
+/*CONTENT*/
+
+.content-wrapper {
+  width:980px;
+  height:100%;
+  margin:0 auto;
+
+}
+
+.main-content {
+  width:650px;
+  float:left;
+  padding-left:10px;
+}
+
+.image_left {
+  border:#000 1px solid;
+  float:left;
+  margin-right:20px;
+  -webkit-transform: rotate(-2deg) ;
+  -moz-transform: rotate(-1deg) ;
+  -o-transform: rotate(-2deg) ;
+}
+
+.attention_text {
+   line-height:26px;
+   font-size:24px;
+   font-weight:bold;
+}
+
+p { 
+  font-size:14px;
+  padding-top:20px;
+  }
+
+.content p a{
+  color:#08a8d0;
+}
+
+/*ASIDE*/
+
+.aside-wrapper {
+  width:300px;
+  float:right;
+}
+
+aside {
+  -moz-border-radius: 15px 5px 19px 0px;
+  -webkit-border-radius:15px 5px 19px 0px;
+  border-radius:15px 5px 19px 0px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3d5ff', endColorstr = '#fafffe');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3d5ff', endColorstr = '#fafffe')";
+  background-image: -moz-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: -ms-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: -o-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#a3d5ff), to(#fafffe));
+  background-image: -webkit-linear-gradient(top, #a3d5ff, #fafffe);
+  background-image: linear-gradient(top, #a3d5ff, #fafffe);
+  padding:15px;
+}
+
+
+aside img {
+  border:#000 1px solid;
+  float:right;
+  margin-left:1px;
+}
+
+/*FOOTER*/
+
+.footer-wrapper {
+  width:980px;
+  height:50px;
+  float:left;
+  padding:20px 0 20px 0;
+}
