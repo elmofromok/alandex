@@ -13,18 +13,9 @@ h1, h3 {
 
 .navigation_menu ul {
   background-color:#0752af;
-  -moz-border-radius-topleft: 15px;
-  -moz-border-radius-topright:5px;
-  -moz-border-radius-bottomleft:5px;
-  -moz-border-radius-bottomright:19px;
-  -webkit-border-top-left-radius:15px;
-  -webkit-border-top-right-radius:5px;
-  -webkit-border-bottom-left-radius:5px;
-  -webkit-border-bottom-right-radius:19px;
-  border-top-left-radius:15px;
-  border-top-right-radius:5px;
-  border-bottom-left-radius:5px;
-  border-bottom-right-radius:19px;
+  -moz-border-radius: 15px 5px 19px 5px;
+  -webkit-border-radius:15px 5px 19px 5px;
+  border-radius:15px 5px 19px 5px;
   width:100%;
   height:50px;
   
@@ -48,18 +39,9 @@ h1, h3 {
 .nav li.active a, .nav li a:hover {
   background-color: #91c8ff;
   color:#fff;
-  -moz-border-radius-topleft: 15px;
-  -moz-border-radius-topright:0px;
-  -moz-border-radius-bottomleft:5px;
-  -moz-border-radius-bottomright:19px;
-  -webkit-border-top-left-radius:15px;
-  -webkit-border-top-right-radius:0px;
-  -webkit-border-bottom-left-radius:0px;
-  -webkit-border-bottom-right-radius:19px;
-  border-top-left-radius:15px;
-  border-top-right-radius:0px;
-  border-bottom-left-radius:0px;
-  border-bottom-right-radius:19px;
+  -moz-border-radius-topleft: 15px 5px 19px 5px;
+  -webkit-border-radius:15px 5px 19px 5px;
+  border-top-left-radius:15px 5px 19px 5px
   padding:3px 45px 3px 45px;
 }
 
@@ -68,15 +50,17 @@ h1, h3 {
   font-size:16px;
   font-weight:bold;
   padding-bottom:10px;
+  position:relative;
+  margin-top:-67px;
 }
 
 .image_left {
   border:#000 1px solid;
   float:left;
   margin-right:20px;
-  -webkit-transform: rotate(-5deg) ;
+  -webkit-transform: rotate(-2deg) ;
   -moz-transform: rotate(-1deg) ;
-  -o-transform: rotate(-5deg) ;
+  -o-transform: rotate(-2deg) ;
 }
 
 .attention_text {
@@ -96,18 +80,9 @@ p{
 }
 
 aside {
-  -moz-border-radius-topleft: 15px;
-  -moz-border-radius-topright:0px;
-  -moz-border-radius-bottomleft:5px;
-  -moz-border-radius-bottomright:19px;
-  -webkit-border-top-left-radius:15px;
-  -webkit-border-top-right-radius:0px;
-  -webkit-border-bottom-left-radius:0px;
-  -webkit-border-bottom-right-radius:19px;
-  border-top-left-radius:15px;
-  border-top-right-radius:0px;
-  border-bottom-left-radius:0px;
-  border-bottom-right-radius:19px;
+  -moz-border-radius: 15px 5px 19px 0px;
+  -webkit-border-radius:15px 5px 19px 0px;
+  border-radius:15px 5px 19px 0px;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3d5ff', endColorstr = '#fafffe');
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3d5ff', endColorstr = '#fafffe')";
   background-image: -moz-linear-gradient(top, #a3d5ff, #fafffe);

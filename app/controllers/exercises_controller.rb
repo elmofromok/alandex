@@ -7,4 +7,7 @@ class ExercisesController < ApplicationController
 
   def three
   end
+
+  def four
+  end
 end
