@@ -1,0 +1,114 @@
+/*
+  Place all the styles related to exercise three here.
+*/
+.navigation_menu{
+  background:#0e5999;
+  overflow:auto;
+ -webkit-border-radius: 15px 0px 15px 0px;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: 10px 10px .3;  
+
+}
+.navigation_menu ul{
+  width:80%;
+  margin:auto;
+  overflow:auto;
+  text-align: center;
+}
+ ul.nav li {
+  float:left;
+  padding:10px;
+  font-size:16px;
+  font-weight:bold;
+  width:20%;
+  -webkit-border-radius: 15px 0px 15px 0px;
+  border-radius: 15px 0px 15px 0px;
+  margin:10px;
+  color:#fff;
+
+}
+ ul.nav li a{
+  color:white;
+}
+.navigation_menu ul.nav li.active,
+.navigation_menu ul.nav li:hover {
+  background: #7db9e8;
+  color:#fff;
+}
+ ul.nav li.active a,
+ ul.nav li:hover a{
+  background-color: transparent;
+}
+.login {
+  float:right;
+  margin:-57px 0 20px
+}
+
+#exercise_three aside {
+  	background: #d0ebf9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d0ebf9 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0ebf9), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d0ebf9 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d0ebf9 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d0ebf9 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d0ebf9 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0ebf9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  padding:20px;
+  -webkit-border-radius: 15px 0px 15px 0px;
+  border-radius: 15px 0px 15px 0px;
+  word-wrap:break-word;
+  font-size:10pt;
+
+}
+#exercise_three aside h3{
+	color:#0e5999;
+	padding-bottom:20px;
+ 	text-transform:uppercase;
+}
+#exercise_three aside img{
+	border:1px solid;
+	float:right;
+	margin-left:10px;
+}
+.content {
+	font-size:16px;
+}
+.page_header {
+	color:#0e5999;
+	padding-bottom:20px;
+}
+.image_left {
+	-webkit-transform: scale(1.0) rotate(-3deg);
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform: scale(1.0) rotate(-3deg);
+	-moz-transform-origin: 0% 0%;
+	-o-transform: scale(1.0) rotate(-3deg);
+	-o-transform-origin: 0% 0%;
+	-ms-transform: scale(1.0) rotate(-3deg);
+	-ms-transform-origin: 0% 0%;
+	transform: scale(1.0) rotate(-3deg);
+	transform-origin: 0% 0%;
+	border:1px solid;
+	float:left;
+	margin-right:25px;
+	margin-bottom:20px;
+	
+}		
+.attention_text {
+		vertical-align:middle;
+		font-weight:bold;
+		font-size:30px;
+		line-height:35px ! important;
+		
+}
+#footer {
+	padding-top:20px;
+}
+.content p {
+	line-height:28px;
+}
+.page_header {
+	text-transform:uppercase;
+}
+
+
