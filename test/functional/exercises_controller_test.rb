@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class ExercisesControllerTest < ActionController::TestCase
-  test "should get one" do
-    get :one
+  test "should get three" do
+    get :three
     assert_response :success
   end
 
