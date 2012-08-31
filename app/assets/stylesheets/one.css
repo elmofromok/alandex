@@ -1,1 +1,54 @@
 /* place your css here */
+
+
+h2, h3 {
+text-transform:uppercase; 
+padding:10px 0 10px 0; 
+}
+
+
+#exercise_one {
+
+}
+
+#navigation_menu ul {
+background-color:#d9d9d9;
+height:40px;
+width:100%;
+margin:0px; 
+padding:0px;
+}
+
+#navigation_menu ul li {
+display:inline; 
+height:20px; 
+float:left; 
+font-size:16px;
+font-weight:bold;
+list-style:none; 
+padding:10px;
+}
+
+#login {
+  float:right;
+  font-size:16px;
+  font-weight:bold;
+  padding-top:10px;
+}
+
+.content p{
+  line-height:25px;
+  font-size:16px;
+  padding-top:15px;
+  width:375px;
+ 
+}
+
+aside {
+  background-color:#f2bdb1;
+  padding:5px 20px 5px 20px;
+}
+
+
+
+
