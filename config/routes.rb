@@ -4,6 +4,8 @@ Cssplayground::Application.routes.draw do
   get "exercises/two"
 
   get "exercises/one"
+  
+  get "exercises/four"
 
   get "home/index"
 
